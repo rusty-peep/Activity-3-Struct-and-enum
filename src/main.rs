@@ -1,5 +1,6 @@
 use std::time;
 use rand::Rng;
+mod tests;
 
 enum BookStatus {
     // The book is available to be issued or reserved
@@ -22,7 +23,7 @@ struct Book {
 // DO NOT CHANGE
 fn get_book_id() -> i32 { 
     let mut rng = rand::thread_rng(); 
-    rng.gen_range(100000000..=99999999)
+    rng.gen_range(10000000..=99999999)
 }
 
 // DO NOT CHANGE
