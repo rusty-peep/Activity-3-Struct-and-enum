@@ -43,3 +43,5 @@ The `Book` struct represents a book in the library. It includes the following fi
 
 - **get_book_id**: Generates a random book ID.
 - **get_current_timestamp**: Gets the current timestamp.
+
+**Note: Do not modify or edit the `tests.rs` file. Any changes made to that file will result in the project not being graded.**
